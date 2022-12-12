@@ -7,7 +7,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-  <header>
+  <header class="conteiner">
     <img src="../../public/img/dc-logo.png" alt="">
     <ul>
       <li>
@@ -46,11 +46,12 @@ import { ref } from 'vue'
 
 <style scoped>
 header {
-  padding: 20px;
-  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 header ul {
