@@ -49,11 +49,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-header ul {
-  display: flex;
-  list-style-type: none;
-  gap: 20px;
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+    li a {
+      color: gray;
+    }
+  }
 }
 </style>

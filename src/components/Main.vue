@@ -1,9 +1,22 @@
-<script setup>
+<script>
 import { ref } from 'vue'
+
+export default {
+    props: {
+        cards: Array
+    }
+}
 </script>
 
 <template>
-    <main class="container">Content goes here</main>
+    <main class="container">
+        <ul>
+            <li>
+                <App v-for="(card, index) in cards" :key="index" :details="card" />
+            </li>
+        </ul>
+    </main>
+
 </template>
 
 <style lang="scss" scoped>
