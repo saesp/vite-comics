@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
-.conteiner {
+.container {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+li a {
+    text-decoration: none;
+}
+
+$blue_page: #0282f9;

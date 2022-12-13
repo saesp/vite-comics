@@ -20,6 +20,6 @@ export default {
   <Footer />
 </template>
 
-<style scopeds>
+<style lang="scss" scopeds>
 
 </style>

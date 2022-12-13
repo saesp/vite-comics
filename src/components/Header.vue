@@ -4,7 +4,7 @@ import { ref } from 'vue'
 </script>
 
 <template>
-  <header class="conteiner">
+  <header class="container">
     <img src="../../public/img/dc-logo.png" alt="">
     <ul>
       <li>
@@ -41,7 +41,7 @@ import { ref } from 'vue'
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
   padding-top: 20px;
   padding-bottom: 20px;
